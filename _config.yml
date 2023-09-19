@@ -1,15 +1,15 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Pyleon
+longtitle:        Python Mega Tutorial
+author:           Almighty AI
+email:            pyleon@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  Everything you need to know to be a Python expert!
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
+url:              'https://pyleon.com'
 baseurl:          ''
 rss:              RSS
 
@@ -41,7 +41,7 @@ syntax_highlighter_style: colorful
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:                /:categories/:year-:month-:day-:title:output_ext
+permalink:                /:categories/title
 
 # Disqus comments
 # disqushandler:            sighingnow
