@@ -17,20 +17,18 @@
 
 .book-body .body-inner {
     /* position: absolute; */
-    margin-top: 50px;
-    min-height: calc(100% - 50px);
+    min-height: 100%;
 }
 
 @media (max-width: 1240px) {
     .book-body .body-inner {
         position: absolute;
-        margin-top: 50px;
-        min-height: calc(100% - 50px)
+        min-height: 100%
     }
 }
 
 .book-body .body-inner .page-wrapper {
-    min-height: calc(100% - 46px);
+    min-height: calc(100% - 2px);
 }
 
 .book-body .body-inner .page-wrapper .page-inner {
